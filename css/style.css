@@ -1,0 +1,127 @@
+/*MOBILE SCREEN*/
+/*GLOBAL STYLES*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+}
+
+h1{
+}
+
+h2{
+}
+
+p{
+}
+
+img{
+}
+
+/*SKIP*/
+.skip {
+    position: absolute;
+    top: -40px;
+}
+
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: relative;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
+
+.skip a:focus {
+    position: absolute;
+    top: 40px;
+}
+
+*:focus{
+    outline: 2px solid black;
+}
+
+
+/*GRID*/
+.grid{
+    display: grid;
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+/*BODY*/
+/*NAV*/
+nav{
+}
+
+footer{
+}
+
+/*FOOTER*/
+
+
+/*INDEX*/
+
+/*PUBLICATIONS*/
+
+/*PROJECTS*/
+
+/*TEACHINGS*/
+
+/*TALKS*/
+
+/*INVOLVEMENTS*/
+
+
+
+/*------------------------------------*/
+/*TABLET SCREEN*/
+@media screen and (min-width: 800px) {
+
+	.grid{
+	    display: grid;
+	    grid-template-columns: 10% 10% 30% 30% 10% 10%;
+	    grid-template-rows: auto auto auto auto auto auto;
+	}
+
+}  /*End the media query*/
+
+
+
+
+/*------------------------------------*/
+/*DESKTOP SCREEN*/
+@media screen and (min-width: 1200px) {
+	.grid{
+	    display: grid;
+	    grid-template-columns: 5% 90% 5%;
+	    grid-template-rows: auto auto auto auto auto auto;
+	}
+}
+
+
+/*------------------------------------*/
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto; /* Removes scroll animation */
+    }
+
+    .skip a{
+        background: white;
+        left: 0;
+        padding: 6px;
+        position: absolute;
+        top: -40px;
+        -webkit-transition: initial;
+        transition: initial;/* Your code here - set to default setting */
+        z-index: 1;
+    }
+
+    .skip a:focus{
+        top:0;
+    }
+}
