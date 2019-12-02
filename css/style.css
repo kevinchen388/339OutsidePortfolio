@@ -116,6 +116,8 @@ a.link:hover {
     font-size: 24px;
     font-weight: 600;
     color: inherit;
+    display: inline-block;
+    margin-top: 4px;
 }
 
 .logo:hover{
