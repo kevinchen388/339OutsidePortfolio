@@ -35,6 +35,10 @@ a{
     font-weight: 500;
 }
 
+a:hover {
+    color: #D16039;
+}
+
 img{
     /* just so the image doesn't take up the whole screen for now */
     /* width: 200px; */
@@ -114,6 +118,10 @@ a.link:hover {
     color: inherit;
 }
 
+.logo:hover{
+    color: #FF7545;
+}
+
 .nav li {
     display: block;
     position: relative;
@@ -151,6 +159,7 @@ footer{
     bottom: 0;
     left: 0;
     justify-content: center;
+    padding: 10px 0;
 }
 
 
@@ -180,12 +189,15 @@ footer{
 .bg {
     grid-column: 1 / -1;
     grid-row: 2 / 4;
-}
-
-.bg img {
+    background-image: url("../images/NQ.jpg");
+    /* Parallax effect */
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
     width: 100vw;
-    height: 30vh;
-    object-fit: cover;
+    height: 50vh;
+    display: table;
 }
 
 .intro {
@@ -423,12 +435,6 @@ footer{
     .bg {
         grid-column: 1 / -1;
         grid-row: 2 / 4;
-    }
-
-    .bg img {
-        width: 100vw;
-        height: 25vh;
-        object-fit: cover;
     }
 
     .intro {
@@ -675,12 +681,6 @@ footer{
         .bg {
             grid-column: 1 / -1;
             grid-row: 2 / 4;
-        }
-
-        .bg img {
-            width: 100vw;
-            height: 50vh;
-            object-fit: cover;
         }
 
         .intro {
