@@ -8,6 +8,7 @@ body{
    background-color: white;
    font-family: "Poppins", sans-serif;
    line-height: 1.2em;
+   font-weight: 400;
 }
 
 h1{
@@ -30,6 +31,7 @@ p{
 }
 
 a{
+   font-family: "Poppins", sans-serif;
    color: #A80000;
    /* 500 = medium */
    font-weight: 500;
@@ -113,8 +115,9 @@ a.link:hover {
 }
 
 .logo {
+   font-family: "Poppins", sans-serif;
    font-size: 24px;
-   font-weight: 600;
+   /* font-weight: 600; */
    color: inherit;
    display: inline-block;
    margin-top: 4px;
@@ -404,12 +407,6 @@ footer{
        margin-top: 0px;
    }
 
-   .logo {
-       font-size: 24px;
-       font-weight: 600;
-       color: inherit;
-   }
-
    .nav li {
        display: inline-block;
        position: relative;
@@ -670,12 +667,6 @@ footer{
        .nav {
            float: right;
            margin-top: 0px;
-       }
-
-       .logo {
-           font-size: 24px;
-           font-weight: 600;
-           color: inherit;
        }
 
        .nav li {
