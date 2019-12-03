@@ -2,7 +2,6 @@
 /*GLOBAL STYLES-------------------------------------------*/
 html{
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 body{
@@ -14,7 +13,7 @@ body{
 }
 
 .overflow{
-    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 h1{
