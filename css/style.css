@@ -299,7 +299,7 @@ footer{
    grid-column: 2 / 3;
    grid-row: 6/7;
 }
-#project_image{
+.project_image{
    grid-column: 2/3;
 }
 .projects img{
@@ -561,7 +561,7 @@ footer{
    .project h2{
        grid-column: 1/-1;
    }
-   #project_image{
+   .project_image{
        grid-column: 1/2;
    }
    .projects img{
@@ -571,7 +571,7 @@ footer{
        /* height: calc((100vw) * 0.40); */
        height: 100%;
    }
-   #project_text{
+   .project_text{
        grid-column: 2/3;
    }
 
@@ -827,7 +827,7 @@ footer{
        .project h2{
            grid-column: 1/-1;
        }
-       #project_image{
+       .project_image{
            grid-column: 1/2;
        }
        .projects img{
@@ -837,7 +837,7 @@ footer{
            /* height: calc((100vw) * 0.40); */
            height: 100%;
        }
-       #project_text{
+       .project_text{
            grid-column: 2/3;
        }
 
