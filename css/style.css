@@ -362,6 +362,7 @@ footer{
 .involvements-main-container {
   margin-top: 10px;
   grid-column: 2 / -2;
+  grid-row: 2/ span;
   /* position: relative;  */
   /* padding-top: -40%;  */
 }
@@ -648,8 +649,8 @@ footer{
     /*INVOLVEMENTS-------------------*/
     .involvements-main-container {
         grid-column: 2 / 6;
-        margin-left: 30px;
-        grid-row: 3/4;
+        /* margin-left: 30px; */
+        grid-row: 2/ span;
     }
 
 
@@ -925,8 +926,8 @@ footer{
         /*INVOLVEMENTS-------------------*/
         .involvements-main-container {
             grid-column: 2 / 6;
-            margin-left: 30px;
-            grid-row: 3/4;
+            /* margin-left: 30px; */
+            grid-row: 2/ span;
         }
 
 
