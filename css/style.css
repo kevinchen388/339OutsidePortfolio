@@ -335,6 +335,7 @@ footer{
 
 /*INVOLVEMENTS-------------------*/
 .involvements-main-container {
+  margin-top: 10px;
    grid-column: 2 / -2;
    /* position: relative;  */
    /* padding-top: -40%;  */
