@@ -19,6 +19,8 @@ h2{
    font-size: 18px;
    color: #A80000;
    margin-bottom: 15px;
+   margin-top: 15px;
+   margin-top: 15px;
 }
 
 h3{
@@ -265,6 +267,7 @@ footer{
 }
 
 .p_list li{
+   font-size: 12px;
    padding-bottom: 20px;
 }
 
@@ -294,7 +297,7 @@ footer{
    grid-column: 2 / 3;
    grid-row: 6/7;
 }
-#project_image{
+.project_image{
    grid-column: 2/3;
 }
 .projects img{
@@ -530,11 +533,11 @@ footer{
    }
 
    .p_list li{
+       font-size: 14px;
        padding-bottom: 20px;
    }
 
    .p_title {
-       padding-top: 20px;
        padding-bottom: 20px;
    }
 
@@ -568,7 +571,7 @@ footer{
    .project h2{
        grid-column: 1/-1;
    }
-   #project_image{
+   .project_image{
        grid-column: 1/2;
    }
    .projects img{
@@ -578,7 +581,7 @@ footer{
        /* height: calc((100vw) * 0.40); */
        height: 100%;
    }
-   #project_text{
+   .project_text{
        grid-column: 2/3;
    }
 
@@ -802,11 +805,11 @@ footer{
        }
 
        .p_list li{
+           font-size: 16px;
            padding-bottom: 20px;
        }
 
        .p_title {
-           padding-top: 20px;
            padding-bottom: 20px;
        }
 
@@ -840,7 +843,7 @@ footer{
        .project h2{
            grid-column: 1/-1;
        }
-       #project_image{
+       .project_image{
            grid-column: 1/2;
        }
        .projects img{
@@ -850,7 +853,7 @@ footer{
            /* height: calc((100vw) * 0.40); */
            height: 100%;
        }
-       #project_text{
+       .project_text{
            grid-column: 2/3;
        }
 
