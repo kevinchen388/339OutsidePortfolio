@@ -343,13 +343,15 @@ footer{
 /*TALKS--------------------------*/
 
 #talks-title {
-    grid-column: 2 / -2;
-    grid-row: 2 / span 1;
+    padding-bottom: 10px;
 }
 
 #talks-content {
     grid-column: 2 / -2;
-    grid-row: 3 / span 1;
+    grid-row: 2 / span 1;
+}
+
+#talks-content ul {
     margin-left: 30px;
 }
 
@@ -630,20 +632,26 @@ footer{
 
     /*TALKS--------------------------*/
 
+    /*TALKS--------------------------*/
+
     #talks-title {
-        grid-column: 2 / 6;
-        grid-row: 2 / span 1;
+        padding-bottom: 20px;
     }
 
     #talks-content {
-        grid-column: 2 / 6;
-        grid-row: 3 / span 1;
-        font-size: 14px;
+        grid-column: 2 / -2;
+        grid-row: 2 / span 1;
+    }
+
+    #talks-content ul {
+        margin-left: 30px;
     }
 
     #talks-content li {
+        padding-bottom: 20px;
         font-size: 14px;
     }
+
 
     /*INVOLVEMENTS-------------------*/
     .involvements-main-container {
@@ -908,19 +916,23 @@ footer{
         /*TALKS--------------------------*/
 
         #talks-title {
-            grid-column: 2 / 6;
-            grid-row: 2 / span 1;
+            padding-bottom: 20px;
         }
 
         #talks-content {
-            grid-column: 2 / 6;
-            grid-row: 3 / span 1;
-            /* margin-left: 30px; */
+            grid-column: 2 / -2;
+            grid-row: 2 / span 1;
+        }
+
+        #talks-content ul {
+            margin-left: 30px;
         }
 
         #talks-content li {
+            padding-bottom: 20px;
             font-size: 16px;
         }
+
 
         /*INVOLVEMENTS-------------------*/
         .involvements-main-container {
