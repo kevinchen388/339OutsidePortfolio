@@ -355,6 +355,7 @@ footer{
 
 #talks-content li {
     padding-bottom: 20px;
+    font-size: 12px;
 }
 
 /*INVOLVEMENTS-------------------*/
@@ -637,6 +638,11 @@ footer{
     #talks-content {
         grid-column: 2 / 6;
         grid-row: 3 / span 1;
+        font-size: 14px;
+    }
+
+    #talks-content li {
+        font-size: 14px;
     }
 
     /*INVOLVEMENTS-------------------*/
@@ -912,9 +918,9 @@ footer{
             /* margin-left: 30px; */
         }
 
-        /* #talks-content li {
-        padding-bottom: 20px;
-        } */
+        #talks-content li {
+            font-size: 16px;
+        }
 
         /*INVOLVEMENTS-------------------*/
         .involvements-main-container {
