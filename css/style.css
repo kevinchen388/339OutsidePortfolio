@@ -20,6 +20,8 @@ h2{
    font-size: 18px;
    color: #A80000;
    margin-bottom: 15px;
+   margin-top: 15px;
+   margin-top: 15px;
 }
 
 h3{
@@ -526,7 +528,6 @@ footer{
    }
 
    .p_title {
-       padding-top: 20px;
        padding-bottom: 20px;
    }
 
@@ -793,7 +794,6 @@ footer{
        }
 
        .p_title {
-           padding-top: 20px;
            padding-bottom: 20px;
        }
 
