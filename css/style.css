@@ -8,7 +8,6 @@ body{
    background-color: white;
    font-family: "Poppins", sans-serif;
    line-height: 1.2em;
-   font-weight: 400;
 }
 
 h1{
@@ -31,7 +30,6 @@ p{
 }
 
 a{
-   font-family: "Poppins", sans-serif;
    color: #A80000;
    /* 500 = medium */
    font-weight: 500;
@@ -115,9 +113,8 @@ a.link:hover {
 }
 
 .logo {
-   font-family: "Poppins", sans-serif;
    font-size: 24px;
-   /* font-weight: 600; */
+   font-weight: 600;
    color: inherit;
    display: inline-block;
    margin-top: 4px;
@@ -336,17 +333,22 @@ footer{
 /*INVOLVEMENTS-------------------*/
 .involvements-main-container {
    grid-column: 2 / -2;
-   margin-left: 32px;
    /* position: relative;  */
    /* padding-top: -40%;  */
 }
 
+.involvements {
+  margin-left: 30px;
+}
+
+.one {
+  padding-top: 20px;
+}
 
 .indented-items{
    list-style-type: circle;
    padding-left: 4%;
 }
-
 
 /*TABLET SCREEN-------------------------------------------*/
 @media screen and (min-width: 800px) {
@@ -405,6 +407,12 @@ footer{
    .nav {
        float: right;
        margin-top: 0px;
+   }
+
+   .logo {
+       font-size: 24px;
+       font-weight: 600;
+       color: inherit;
    }
 
    .nav li {
@@ -595,9 +603,8 @@ footer{
 
    /*INVOLVEMENTS-------------------*/
    .involvements-main-container {
-       grid-column: 2 / 6;
-       margin-left: 30px;
-       grid-row: 3/4;
+       grid-column: 2 / -2;
+       /* grid-row: 3/4; */
    }
 
 
@@ -667,6 +674,12 @@ footer{
        .nav {
            float: right;
            margin-top: 0px;
+       }
+
+       .logo {
+           font-size: 24px;
+           font-weight: 600;
+           color: inherit;
        }
 
        .nav li {
@@ -851,10 +864,11 @@ footer{
 
        /*INVOLVEMENTS-------------------*/
        .involvements-main-container {
-           grid-column: 2 / 6;
-           margin-left: 30px;
-           grid-row: 3/4;
+           grid-column: 2 / -2;
+           grid-row: 2/5;
        }
+
+
 
 
 }
